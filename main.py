@@ -1,9 +1,9 @@
 import asyncio
-import nest_asyncio
+
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-nest_asyncio.apply()
+
 
 # Yahan 'YOUR_BOT_TOKEN_HERE' ki jagah apna BotFather se mila hua TokenBOT_TOKEN = 
 BOT_TOKEN = "8844936294:AAGXcIMgXGjBy_kz7XdydztQu4-E2wxLQhs"
