@@ -2,7 +2,7 @@ import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = "8844936294:AAGXcIMgXGjBy_kz7XdydztQu4-E2wxLQhs" # Apna poora token yahan rehn dein
+BOT_TOKEN = "8844936294:AAGXcIMgXgJBy..."  # Yahan apna poora token rehne dena
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_text = (
@@ -19,5 +19,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
     
   
