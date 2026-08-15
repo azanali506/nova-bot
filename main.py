@@ -5,7 +5,10 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 nest_asyncio.apply()
 
-# Yahan 'YOUR_BOT_TOKEN_HERE' ki jagah apna BotFather se mila hua TokenBOT_TOKEN = "8844936294:AAGXcIMgXGjBy_kz7XdydztQu4-E2wxLQhs"
+# Yahan 'YOUR_BOT_TOKEN_HERE' ki jagah apna BotFather se mila hua TokenBOT_TOKEN = 
+BOT_TOKEN = "8844936294:AAGXcIMgXGjBy_kz7XdydztQu4-E2wxLQhs"
+
+
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
